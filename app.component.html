@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  Enter firstnumber:
+  <input type="number" [(ngModel)]="firstnumber">
+  Enter secondnumber:
+  <input type="number" [(ngModel)]="secondnumber">
+  Enter result:
+  <input type="number" [(ngModel)]="result"><br>
+  <button (click)="getAdd()">ADD</button>
+  <button (click)="getSub()">SUB</button>
+  <button (click)="getMul()">MUL</button>
+  <button (click)="getDiv()">DIV</button>
+  
+
+</body>
+</html>
